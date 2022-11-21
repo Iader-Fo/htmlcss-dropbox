@@ -25,11 +25,13 @@ header {
     background-color: white;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .piani{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .flex {
@@ -74,11 +76,12 @@ header {
 .plans{
     display: flex;
     justify-content: space-between;
+    gap: 10px;
 }
 
 .card_plans{
     min-height: 500px;
-    width: 30%;
+    width: calc(100% / 3);
 }
 
 .team_left{
@@ -107,14 +110,52 @@ header {
 
 .operations{
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
+    gap: 10px;
 }
 
 .card_operations{
-    width: 30%;
+    width: calc(100% / 3);
 }
 
 .card_operations>div>img{
     width: 100%;
+}
+
+.container_table{
+    width: 100vw;
+    min-height: 400px;
+}
+
+.table{
+    width: calc(100% / 3);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.table_card{
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+    justify-content: center;
+
+}
+
+.table_card>img{
+    width: 50%;
+    
+}
+
+.background_under_table{
+    background-color: aqua;
+}
+
+.container_under_table{
+}
+
+.under_table_left{
+    width: 60%;
+}
+
+.under_table_right{
+    width: 40%;
 }
