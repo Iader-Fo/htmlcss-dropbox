@@ -3,3 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header {
+    background-color: #ff6900;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.bordered{
+    border: 2px dashed black;
+}
+
+.container {
+    min-height: 20px;
+    background-color: white;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    
+}
