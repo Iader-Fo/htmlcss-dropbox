@@ -34,7 +34,7 @@ header {
 
 .flex {
     display: flex;
-      
+    
 }
 
 .background_jumbo {
@@ -64,4 +64,31 @@ header {
 
 .jumbo_right>img{
     width: 100%;
+}
+
+.container_main{
+    margin: auto;
+    max-width: 1200px;
+}
+
+.plans{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    min-height: 500px;
+    width: 30%;
+}
+
+.team_left{
+    width: 70%;
+}
+
+.team_right{
+    width: 30%;
+}
+
+.container_team > div > p{
+    text-align: center;
 }
