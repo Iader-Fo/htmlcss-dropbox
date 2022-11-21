@@ -76,7 +76,7 @@ header {
     justify-content: space-between;
 }
 
-.card{
+.card_plans{
     min-height: 500px;
     width: 30%;
 }
@@ -91,4 +91,30 @@ header {
 
 .container_team > div > p{
     text-align: center;
+}
+
+.partner_left{
+    width: 60%;
+}
+
+.partner_right{
+    width: 40%;
+}
+
+.partner_left > img{
+    width: 100%;
+}
+
+.operations{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card_operations{
+    width: 30%;
+}
+
+.card_operations>div>img{
+    width: 100%;
 }
