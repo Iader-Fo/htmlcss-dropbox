@@ -131,18 +131,106 @@ header ul{
 }
 
 .find{
-    margin-top: 200px;
+    margin-top: 140px;
+}
+
+.find h2{
+    font-size: 2.5em;
+    padding: 30px 0;
+}
+
+.circle{
+    align-items: center;
+}
+
+#circle_blue{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 4px solid blue;
+    margin-right: 2px;
+}
+
+#circle_gray{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid lightgray;
+    margin-left: 40px;
+    margin-right: 2px;
 }
 
 .plans{
+    margin-top: 30px;
     display: flex;
     justify-content: space-between;
-    gap: 10px;
+    gap: 40px;
 }
 
 .card_plans{
     min-height: 500px;
     width: calc(100% / 3);
+}
+
+.header_card{
+    text-align: center;
+    padding: 10px;
+}
+
+.card_plans_info{
+    padding: 30px 25px;
+}
+
+.card_plans_info h3{
+    font-size: 1.8em;
+    padding-bottom: 15px;
+}
+
+.card_plans_month{
+    color: gray;
+    padding: 10px 0 40px 0;
+}
+
+.card_plans_detail{
+    align-items: baseline;
+    padding:10px 0;
+}
+
+.card_plans_icon{
+    padding-right: 5px;
+}
+
+.card_plans_prova{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 30px 0;
+    width: 100%;
+    height: 40px;
+    background-color: #0061ff;
+}
+
+.card_plans_prova a{
+    text-decoration: none;
+    color: white;
+}
+
+.card_plans_acquista{
+    color: blue;
+}
+
+.edge{
+    margin: 40px 0 30px 0;
+    width: 50px;
+    border-bottom: 2px solid lightgray;
+}
+
+.card_plans_info h4{
+    padding-bottom: 20px;
+}
+
+#check{
+    color: #0061ff;
 }
 
 .team_left{
