@@ -17,35 +17,59 @@ header {
 }
 
 main{
-    margin-top: 120px;
+    margin-top: 80px;
 }
 
 .bordered{
     border: 2px dashed black;
 }
 
+.flex {
+    display: flex;    
+}
+
+a{
+    text-decoration: none;
+}
+
+header a{
+    font-size: large;
+}
+
 .container_head {
-    min-height: 100px;
+    height: 80px;
     background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.piani{
+.piani, .login{
+    height: 100%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
-.flex {
-    display: flex;
-    
+.logo{
+    padding: 15px;
 }
+
+.piani>a, .login>a{
+    margin: 50px 15px;
+    color: black;
+}
+
+#inizia{
+    background-color: #0061ff;
+    padding: 5px 10px;
+    color: white;
+    margin-right: 15px;
+}
+
 
 .background_jumbo {
     /* min-height: 500px; */
-    background-color: rgb(42, 130, 197);
+    background-color: #b4d0e7;
 }
 
 .container_jumbo {
