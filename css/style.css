@@ -163,3 +163,29 @@ main{
 .under_table_right{
     width: 40%;
 }
+
+.questions{
+    justify-content: space-between;
+    align-content: center;
+}
+
+footer{
+    background-color: aquamarine;
+}
+
+.container_footer {
+    margin: auto;
+    max-width: 1200px;
+    /* min-height: 300px; */
+    background-color: rgb(58, 126, 78);
+}
+
+.card_footer{
+    width: 20%;
+}
+
+.language {
+    margin: auto;
+    max-width: 1200px;
+    border-top: ;
+}
