@@ -7,6 +7,10 @@
     
     <link rel="stylesheet" href="css/style.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <title>DropBox</title>
@@ -64,7 +68,7 @@
             <div class="background_jumbo bordered">
                 <div class="container_jumbo bordered">
                     <div class="absolute">
-                        <div>
+                        <div class="title_jumbo">
                             <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
                         </div>
                         <div class="flex">
@@ -309,28 +313,33 @@
             
             <section>
                 <div class="container_team bordered">
-                    <div class="bordered">
-                        <p>Team</p>
+                    <div class="container_team_title bordered">
+                        <p><i class="fa-sharp fa-solid fa-building"></i> Team</p>
                     </div>
                     <div class=" flex">
                         <div class="team_left bordered">
                             <h3>Enterprise</h3>
-                            <p>Contatta l'ufficio vendite per i prezzi</p>
-                            <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala</p>
+                            <p class="team_left_contatta"><strong>Contatta l'ufficio vendite per i prezzi</strong></p>
+                            <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.</p>
                         </div>
                         <div class="team_right bordered">
-                            <a href="#">Contatta l'ufficio vendite</a>
+
+                            <!-- QUI HO PROVATO A FARE CON BUTTON -->
+
+                            <button>
+                                <a href="#">Contatta l'ufficio vendite</a>
+                            </button>                            
                         </div>
                     </div>
                 </div>
             </section>
 
             <section>
-                <div class="bordered flex">
-                    <div class="bordered partner_left">
+                <div class="container_partner bordered flex">
+                    <div class="partner_left bordered ">
                         <img src="img/partner.png" alt="">
                     </div>
-                    <div class="bordered partner_right">
+                    <div class=" partner_right bordered">
                         <h3>Entra in Contatto con un partner Dropbox</h3>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure veritatis unde iusto! Similique, modi deleniti! Illo ex quidem autem aliquam?
@@ -341,10 +350,10 @@
             </section>
 
             <section>
-                <div class="bordered">
+                <div class="container_title_operations bordered">
                     <h2>Esegui più operazioni con Dropbox Business</h2>
                 </div>
-                <div class="operations bordered flex">
+                <div class="container_operations bordered flex">
                     <div class="card_operations bordered">
                         <div>
                             <img src="img/business-feature-switching-tools.png" alt="">
@@ -354,37 +363,37 @@
                     </div>
                     <div class="card_operations bordered">
                         <div>
-                            <img src="img/business-feature-switching-tools.png" alt="">
+                            <img src="img/business-feature-send-files-it.png" alt="">
                         </div>
                         <h3>Passa di meno da uno strumento all'altro</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In laborum eligendi ipsum facere doloribus accusamus voluptas perspiciatis quis possimus sit.</p>
                     </div>
                     <div class="card_operations bordered">
                         <div>
-                            <img src="img/business-feature-switching-tools.png" alt="">
+                            <img src="img/business-feature-coordinate-it.png" alt="">
                         </div>
                         <h3>Passa di meno da uno strumento all'altro</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In laborum eligendi ipsum facere doloribus accusamus voluptas perspiciatis quis possimus sit.</p>
                     </div>
                 </div>
-                <div class="operations bordered flex">
+                <div class="container_operations bordered flex">
                     <div class="card_operations bordered">
                         <div>
-                            <img src="img/business-feature-switching-tools.png" alt="">
+                            <img src="img/business-feature-integrations-it.png" alt="">
                         </div>
                         <h3>Passa di meno da uno strumento all'altro</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In laborum eligendi ipsum facere doloribus accusamus voluptas perspiciatis quis possimus sit.</p>
                     </div>
                     <div class="card_operations bordered">
                         <div>
-                            <img src="img/business-feature-switching-tools.png" alt="">
+                            <img src="img/business-feature-multi-device.png" alt="">
                         </div>
                         <h3>Passa di meno da uno strumento all'altro</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In laborum eligendi ipsum facere doloribus accusamus voluptas perspiciatis quis possimus sit.</p>
                     </div>
                     <div class="card_operations bordered">
                         <div>
-                            <img src="img/business-feature-switching-tools.png" alt="">
+                            <img src="img/business-feature-security.png" alt="">
                         </div>
                         <h3>Passa di meno da uno strumento all'altro</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In laborum eligendi ipsum facere doloribus accusamus voluptas perspiciatis quis possimus sit.</p>
@@ -393,8 +402,10 @@
             </section> 
 
             <section>
-                <div class="bordered">
-                    <h2>Più di 500.000 team utilizzano Dropbox Business</h2>
+                <div class="container_scopri bordered">
+                    <div>
+                        <h2>Più di 500.000 team utilizzano Dropbox Business</h2>
+                    </div>
                     <a href="#">Scopri di più sui nostri clienti</a>
                 </div>
             </section>
@@ -407,37 +418,35 @@
                         <img src="img/designit.svg" alt="">
                     </div>
                     <div class="table_card flex bordered">
-                        <img src="img/designit.svg" alt="">
+                        <img src="img/arizona_state_university.svg" alt="">
                     </div>
                     <div class="table_card flex bordered">
-                        <img src="img/designit.svg" alt="">
+                        <img src="img/university_of_florida.svg" alt="">
                     </div>
                     <div class="table_card flex bordered">
-                        <img src="img/designit.svg" alt="">
+                        <img src="img/topps.svg" alt="">
                     </div>
                 </div>
-                <div class="table bordered">
-                    <div class="bordered">
+                <div id="table_middle" class="table bordered">
+                    <div class="table_card_middle bordered">
                         <img src="img/designit.svg" alt="">
                     </div>
-                    <div>
-                        -----
-                    </div>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel error, eum minus neque corporis ab facilis. Dolorum quaerat quibusdam beatae?</p>
+                    <div class="edge"></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis corrupti dolores reiciendis sequi magnam ducimus. Molestiae eligendi optio doloremque fugiat molestias facilis, alias necessitatibus eveniet accusantium explicabo, eos officia maiores temporibus. Suscipit pariatur sint, maxime, cumque odio officiis nulla deleniti optio necessitatibus eos vitae temporibus dignissimos non voluptatibus adipisci exercitationem.</p>
                     <p>Morten Thomsen, Global IT Lead</p>
                 </div>
                 <div class="table bordered">
                     <div class="table_card flex bordered">
-                        <img src="img/designit.svg" alt="">
+                        <img src="img/world_bicycle_relief.svg" alt="">
                     </div>
                     <div class="table_card flex bordered">
-                        <img src="img/designit.svg" alt="">
+                        <img src="img/hearst_corp.svg" alt="">
                     </div>
                     <div class="table_card flex bordered">
-                        <img src="img/designit.svg" alt="">
+                        <img src="img/lonely_planet.svg" alt="">
                     </div>
                     <div class="table_card flex bordered">
-                        <img src="img/designit.svg" alt="">
+                        <img src="img/clear_channel.svg" alt="">
                     </div>
                 </div>
             </div>
@@ -447,10 +456,10 @@
             <div class="background_under_table bordered">
                 <div class="container_main">
                     <div class="container_under_table bordered flex">
-                        <div class="under_table_left bordered flex">
+                        <div class="under_table_left flex bordered">
                             <h2>Porta Dropbox Business nella tua azienda.</h2>
                         </div>
-                        <div class="under_table_right bordered">
+                        <div class="under_table_right flex bordered">
                             <a href="#">Inizia la tua prova gratuita</a>
                         </div>
                     </div>
@@ -463,24 +472,30 @@
                 <div class="container_questions bordered">
                     <h2>Domande frequenti</h2>
                 </div>
-                <div class="questions bordered flex">
+                <div class="questions bordered_top flex">
                     <div>
                         <h4>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h4>
                     </div>
-                    <div>ICONA</div>
+                    <div>
+                        <a href="#"><i class="fa-solid fa-arrow-down"></i></a>
+                    </div>
                 </div>
-                <div class="questions bordered flex">
+                <div class="questions bordered_middle flex">
                     <div>
                         <h4>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h4>
                     </div>
-                    <div>ICONA</div>
+                    <div>
+                        <a href="#"><i class="fa-solid fa-arrow-down"></i></a>
+                    </div>
                 </div>
-                <div class="questions bordered flex">
+                <div class="questions bordered_bottom flex">
                     <div>
                         <h4>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h4>
                     </div>
-                    <div>ICONA</div>
-                </div>
+                    <div>
+                        <a href="#"><i class="fa-solid fa-arrow-down"></i></a>
+                    </div>
+                </div>                
             </div>
         </section>
     </main>
@@ -510,7 +525,7 @@
                     </ul>
                 </div>
                 <div class="card_footer bordered">
-                    <h3>Dropbox</h3>
+                    <h3>Prodotti</h3>
                     <ul>
                         <li>
                             <a href="#">Applicazioni desktop</a>
@@ -530,7 +545,7 @@
                     </ul>
                 </div>
                 <div class="card_footer bordered">
-                    <h3>Dropbox</h3>
+                    <h3>Azienda</h3>
                     <ul>
                         <li>
                             <a href="#">Applicazioni desktop</a>
@@ -550,7 +565,7 @@
                     </ul>
                 </div>
                 <div class="card_footer bordered">
-                    <h3>Dropbox</h3>
+                    <h3>Supporto</h3>
                     <ul>
                         <li>
                             <a href="#">Applicazioni desktop</a>
@@ -570,7 +585,7 @@
                     </ul>
                 </div>
                 <div class="card_footer bordered">
-                    <h3>Dropbox</h3>
+                    <h3>Community</h3>
                     <ul>
                         <li>
                             <a href="#">Applicazioni desktop</a>
@@ -590,8 +605,8 @@
                     </ul>
                 </div>
             </div>
-            <div class="language">
-                <a href="#">Italiano</a>
+            <div class="language bordered">
+                <a href="#"><i class="fa-solid fa-earth-europe"></i> Italiano <i class="fa-solid fa-arrow-up"></i></a>
             </div>
 
         </section>
