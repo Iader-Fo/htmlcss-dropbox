@@ -478,6 +478,25 @@ header li:hover{
     display: block;
 }
 
+.questions_icon{
+    position: relative;
+}
+
+.icon_up{
+    position: absolute;
+    left: -50px;
+    top: 0;
+    display: none;
+}
+
+.questions:hover .icon_down{
+    display: none;
+}
+
+.questions:hover .icon_up{
+    display: block;
+}
+
 .bordered_top {
     border-top: 1px solid gray;
 }
@@ -493,7 +512,7 @@ header li:hover{
 
 .questions a {
     color: black;
-    padding-right: 40px;
+    margin-right: 40px;
 }
 
 footer {
